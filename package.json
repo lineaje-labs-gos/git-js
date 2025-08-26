@@ -1,12 +1,16 @@
 {
   "name": "simple-git",
   "description": "Simple GIT interface for node.js",
-  "version": "2.48.0",
+  "version": "2.48.0-lineaje-01",
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
     {
       "name": "Steve King",
       "email": "steve@mydev.co"
+    },
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
     }
   ],
   "funding": {
@@ -38,7 +42,10 @@
     "vcs"
   ],
   "license": "MIT",
-  "repository": "git://github.com/steveukx/git-js.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/git-js"
+  },
   "main": "./src/index.js",
   "types": "./typings/index.d.ts",
   "files": [
